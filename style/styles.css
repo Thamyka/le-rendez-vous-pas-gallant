@@ -1,0 +1,264 @@
+@font-face {
+    font-family:"romance" ;
+    src: url("../fonts/LavishlyYours-Regular.ttf");
+}
+@font-face {
+    font-family: "scary";
+    src: url("../fonts/Scary\ Halloween\ Font.ttf");
+}
+body{
+    background-color: lch(0% 0 0);
+}
+
+h1{
+    font-family: "romance";
+    font-size: 75px;
+    text-align: center;
+    color: aliceblue;
+    margin: 2%;
+}
+.titre{
+    font-family: "romance";
+font-size: 75px;
+margin: 10%;
+/* background-color: hwb(326 80% 0% / 0.466); */
+/* color: rgb(255, 104, 174); */
+background-color: rgba(0, 0, 0, 0.377);
+
+color: #ffffff;
+ }
+/* La raison que je n'ai pas utilisé le "h" pour les titres est que les lettres étaient trop épaisses.
+On perdait la beauté de la police. */
+
+
+#start {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#photo{
+      display: block;
+    width: 30%;
+    height: auto;
+    margin: 2% auto;
+   
+}
+
+
+#bouton{
+    position: relative;
+    height: 175px;
+    width: 500px;
+    background-color: hsl(348, 92%, 40%);
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+  justify-content: center;
+  margin: 1.7% auto;
+  text-decoration: none;
+  font-size: 130%;
+  border: #000000 solid 3px;  
+} 
+
+#bouton:hover {
+    background-color: hsl(348, 88%, 40%);
+    color: rgb(255, 255, 255);
+}
+
+p{
+    text-align: center;
+    padding: 0%;
+    margin: auto;
+    font-size: 120%;
+    background-color: hwb(326 80% 0% / 0.466);
+    display: block;
+}
+
+.contenantChoix {
+  display: flex;
+  justify-content: center;
+  border: none;
+} 
+
+span{
+    margin: 5%;
+}
+
+.choix1 {
+  display: block;
+  height: 175px;
+  width: 350px;
+   background-color: #c5082e;
+    color: rgb(0, 0, 0);
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0% 1%;
+  margin: 2%;
+  font-size: 120%;
+  border: 8px double ;
+}
+
+.choix2 {
+  display: block;
+  height: 175px;
+  width: 350px;
+  background-color: #c5082e;
+    color: rgb(0, 0, 0);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0% 1%;
+  margin: 2%;
+  font-size: 120%;
+  border: 8px double ;
+}
+
+.choixRaté {
+  height: 175px;
+  width: 350px;
+  background-color: #c5082e;
+  color: rgb(0, 0, 0);
+  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0% 1%;
+   font-size: 120%;
+   margin: 2%;
+    border: 8px double ;
+}
+
+ #choix3{
+   position:sticky;
+   top: 50%;
+   color: rgb(255, 51, 51);
+   z-index: 1;
+   background-color: black;
+ }
+
+#désaroie{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 51, 51);
+}
+
+#message{
+    color: orange;
+    position: absolute;
+    text-align: center;
+    margin:0% 20% ;
+    top: 888px;
+    justify-content: center;
+    background-color: black ;
+}
+/* le message est censé être exactement derrière la sortie, mais il sera sûrement décalé si l'utilisateur utilise un autre ordi que ceux a l'école */
+
+#sortie{
+    text-decoration: none;
+    color: rgb(255, 51, 51);
+}
+#sortie:hover{
+    color: hwb(0 20% 20%);
+}
+
+
+#fail{
+    font-family: "scary";
+    font-size: 75px;
+    margin: 10%;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.fail2{
+    background-color: rgba(250, 235, 215, 0);
+    color: white;
+}
+
+.fail3{
+      display: block;
+  height: 175px;
+  width: 350px;
+   background-color: #000000;
+    color: #c5082e(0, 0, 0);
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0% 1%;
+  margin: 2%;
+  font-size: 120%;
+  border: 8px double ;
+}
+
+#fail4{
+      position: relative;
+    height: 175px;
+    width: 500px;
+    background-color: #000000;
+    color: #c5082e;
+    display:flex;
+    align-items: center;
+  justify-content: center;
+  margin: 1.7% auto;
+  text-decoration: none;
+  font-size: 130%;
+  border: #c5082e solid 3px;
+}
+ 
+#fail5{
+     font-family: "scary";
+    font-size: 75px;
+    margin: 10%;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+#fail6{
+       background-color: hwb(0 20% 1% / 0.466);
+    color: rgb(0, 0, 0);
+}
+
+#index{
+    background: url("../images/pexels-freestockpro-12944648.jpg") center/cover;
+}
+
+#page_1{
+    background: url("../images/pexels-cottonbro-7609119.jpg")center/cover ;
+}
+
+#page_2{
+    background: url("../images/kseniia-zapiatkina-_bzgRZW4YDI-unsplash.jpg") center/cover; 
+}
+
+#page_3{
+
+  background:url("../images/pexels-ian-panelo-34250457.jpg") center/cover;
+}
+
+#page_4{
+background-color: black;
+}
+
+.page_5{
+    background: url("../images/pexels-pixabay-262047.jpg") center/cover;
+}
+
+#page_6{
+    background: url("../images/pexels-fotoblend-30576160.jpg") center/cover;
+}
+
+
+#page_7{
+background: url("../images/pexels-daniel-andraski-197681005-13065690.jpg") center/cover;
+}
+
+#page_8{
+    background: url("../images/pexels-monica-1034584.jpg") center/cover;
+}
+
+#page_9{
+    background:url("../images/pexels-minhle17vn-977213.jpg") center/cover;
+}
